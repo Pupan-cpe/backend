@@ -16,7 +16,7 @@ app.post("/data", (req, res) => {
   const dateThailand = moment.tz(Date.now()+7, "Asia/Bangkok");
    res.json({ ok: "success" });
   
-  console.log(dateThailand+25,200);
+  console.log(dateThailand);
 });
 
 app.listen(3000, () => {
